@@ -59,7 +59,7 @@ public class DriverBT
 		BinaryTree<String> fTree = new BinaryTree<>("F", null, gTree);
 		BinaryTree<String> bTree = new BinaryTree<>("B", dTree, eTree);
 		BinaryTree<String> cTree = new BinaryTree<>("C", fTree, null);
-
+		
 		tree.setTree("A", bTree, cTree);
 		
       System.out.println("\nGiven Tree:\n");
@@ -89,7 +89,7 @@ public class DriverBT
 		BinaryTree<String> cTree = new BinaryTree<>("C", dTree, eTree);
 		
 		tree.setTree("A", bTree, cTree);
-		
+		//visual of tree
 		System.out.println("\nGiven Tree:\n");
 		System.out.println("     A       ");
 		System.out.println("   /   \\    ");
